@@ -17,10 +17,10 @@ For development, you will only need Node.js and a node global package, NPM, inst
 - Start server with `npm start` command
 
 ## Available APIs  
-- Health check - [GET](http://127.0.0.1:3000/health) - `/health`
+- Health check - Method [GET](http://127.0.0.1:3000/health) - `/health`
 - User
-  - List - [GET](http://127.0.0.1:3000/user/list) - `/user/list`
-  - Create - [POST](http://127.0.0.1:3000/user) - `/user`
+  - List - Method [GET](http://127.0.0.1:3000/user/list) - `/user/list`
+  - Create - Method [POST](http://127.0.0.1:3000/user) - `/user`
 
     <code>
     Params: {
@@ -44,4 +44,4 @@ For development, you will only need Node.js and a node global package, NPM, inst
         }
     </code>
     <br/>
-  - Delete - [DELETE](http://127.0.0.1:3000/user/:id) - `/user/:id`
+  - Delete - Method [DELETE](http://127.0.0.1:3000/user/:id) - `/user/:id`
