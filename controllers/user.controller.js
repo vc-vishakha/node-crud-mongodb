@@ -1,4 +1,4 @@
-const User = require("../schema/user.schema,js");
+const User = require("../schema/user.schema");
 
 
 exports.createUser = async function createUser(req, res) {
