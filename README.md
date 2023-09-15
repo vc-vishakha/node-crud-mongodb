@@ -19,7 +19,7 @@ For development, you will only need Node.js and a node global package, NPM, inst
 ## Available APIs  
 - Health check - Method [GET](http://127.0.0.1:3000/health) - `/health`
 - User
-  - List - Method [GET](http://127.0.0.1:3000/user/list) - `/user/list`
+  - List - Method [GET](http://127.0.0.1:3000/user) - `/user/list`
   - Create - Method [POST](http://127.0.0.1:3000/user) - `/user`
 
     <code>
