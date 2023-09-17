@@ -59,7 +59,6 @@ function validateUser(req, res, next) {
 
     });
 
-    // return JoiSchema.validate(user)
     const { error, value } = JoiSchema.validate(req.body);
 
     if (error) {
